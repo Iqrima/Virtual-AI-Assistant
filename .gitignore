@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and settings
+.env
+settings.json
+
+# Virtual Environment
+venv/
+env/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# API Keys Configuration
+config.py
+api_config.py
+
+# Local development settings
+*.log
+.DS_Store
