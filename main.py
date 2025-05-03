@@ -54,7 +54,7 @@ window = MainWindow()
 window.show()
 
 # API Configuration
-GEMINI_API_KEY = "AIzaSyC5131CZN9aF5VjdvX79EgkpsjJAD_r9ks"  # Replace with your Gemini API Key
+GEMINI_API_KEY = ""  # Replace with your Gemini API Key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # List available models and select one.
@@ -75,7 +75,7 @@ else:
     print("No Gemini models available.")
     exit()
 
-API_KEY = "3f2acba03f87408eb76cfc6dcdb05a71"  # Replace with your News API Key
+API_KEY = ""  # Replace with your News API Key
 BASE_URL = "https://newsapi.org/v2/top-headlines"
 
 # pyttsx3 initialization
